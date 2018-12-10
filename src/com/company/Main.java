@@ -16,6 +16,6 @@ public class Main {
         service.ServiceReguestsFromQueue();
 
         System.out.println("Общее время ожидания = " + df.format(service.getTime_oz()) + "; среднее время ожидания = " + df.format(service.SrTimeOz()));
-        System.out.println("Общеая длина очереди = " + df.format(service.getLenght_ochered()) + "; средняя длина очереди = " + df.format(service.SrLenOch()));
+        System.out.println("Общая длина очереди = " + df.format(service.getLenght_ochered()) + "; средняя длина очереди = " + df.format(service.SrLenOch()));
     }
 }
